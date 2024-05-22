@@ -1,0 +1,114 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#border {
+    h2 {
+        color:crimson
+    }
+    border: 10px solid cadetblue;
+}
+
+#iz {
+    border-left: 2px solid red;
+}
+#der {
+    border-right: 2px solid red;
+}
+#top {
+    border-top: 2px solid red;
+}
+#bot {
+    border-bottom: 2px solid red;
+}
+
+#radius {
+    margin-top: 10px;
+    border: solid black;
+    border-radius: 10px;
+
+}
+
+#image {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYhtnM0WyQthj0R_2xrITGfEn0N3fIZCV_kaSOLVc0qPVM06rY);
+    height: 400px;
+}
+
+#color {
+    h2 {
+        color:darkblue
+    }
+    margin-top: 10px;
+    border: solid greenyellow;
+    color:greenyellow;
+}
+
+#font {
+    margin-top: 10px;
+    border: solid black;
+    font: italic bold 20px georgia;
+}
+
+#font1 {
+    margin-top: 10px;
+    border: solid yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#font2 {
+    margin-top: 10px;
+    border: solid cornsilk;
+    font-style: italic;
+    font-weight:bold;
+}
+
+#widthheight {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid rebeccapurple;
+    width: 200px;
+    height: 500px;
+
+}
+
+#list {
+    list-style: disc;
+}
+
+#margin {
+    margin: 50px;
+    border: solid black;
+}
+
+#padding {
+    padding: 50px;
+    border: solid red;
+}
+
+#overflow {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#display {
+    margin-top: 20px;
+    display: inline-block;
+    width: 500px;
+    height: 120px;
+    background-color: lightcoral;
+}
+
+#position {
+    position: relative;
+    top: 1000px;
+    left: 690px;
+    width: 130px;
+    height: 110px;
+    background-color: lightblue;
+}
+
+#filter {
+    filter: blur(3px);
+}
