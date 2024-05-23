@@ -1,0 +1,90 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.formato {
+    display: flex;
+    background-color: darkslategray;
+    color:white;
+}
+
+#uno {
+    align-items: center;
+    justify-content:space-around;
+}
+
+#uno p {
+    font-size: 18px;
+    margin-right: 300px;
+    font-weight: bold;
+}
+
+#uno nav a{
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: none;
+    color:white
+}
+
+#dos {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 55px;
+    }
+
+    height: 270px;
+    background-color:darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+#tres {
+    p {
+        margin-right: 70px;
+    }
+    button {
+        margin-left: 7px;
+        height: 24px;
+        font-size: small;
+        background-color: darkgoldenrod;
+        color:white;
+        font-weight: bold;
+    }
+    height: 80px;
+    font-weight: bold;
+    align-items: center;
+    justify-content:center;
+}
+
+#cuatro {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#cinco {
+    margin-top: 55px;
+    background-color: darkslategray;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}

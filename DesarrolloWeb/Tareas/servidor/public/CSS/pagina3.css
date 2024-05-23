@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+html {
+    background-color:aliceblue;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+h1 {
+    color: blue;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+a {
+    color: red;
+    margin: 15px;
+    padding: 10px;
+}
+
+.div_style {
+    margin:20px;
+    padding:20px;
+    border-radius: 10px;
+}     
+
+
+#css_cheat_sheet {
+
+    h1 {
+        color:black;
+    }
+    
+    background-color:beige;
+    margin: 20px;
+    padding: 10px;
+    color:black;
+    border-radius: 10px;
+}
+
+#Botones {
+
+    h1 {
+        color:crimson;
+    }
+
+    background-color: beige;
+
+}
+
+#Botones button {
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
